@@ -1,8 +1,29 @@
 // Assignment code here
+// generateBtn is the  Buttom's container that generate password
+// the function writePassword is being call by the addEventListener generateBtn that contains
+// the function generatePassword. So I need to create the function generatePassword
+// the return inside the generatePassword function shows that the 
 
+
+
+
+function generatePassword() {
+  console.log("this is fun");
+  var userChoice = {
+    
+  } 
+
+
+
+
+  return "Generated Password"; //here goes the var that contains the password value generated
+}
+
+generatePassword();
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+console.log(generateBtn);
 
 // Write password to the #password input
 function writePassword() {
@@ -10,11 +31,12 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+  
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
 
 
 // ## User Story
@@ -43,4 +65,4 @@ generateBtn.addEventListener("click", writePassword);
 // THEN a password is generated that matches the selected criteria
 // WHEN the password is generated
 // THEN the password is either displayed in an alert or written to the page
-// // ```
+
