@@ -1,5 +1,5 @@
 # Password Generator Project
-![Password Generator Screenshot](assets\elchinatalpf.github.io_password-generator-starter-code_.png)
+![Password Generator Screenshot](assets/elchinatalpf.github.io_password-generator-starter-code_.png)
 
 This project is about generating a random password based on the user's input. It is a simple program in JavaScript that asks prompt questions to the user. The responses will be used to generate the password using lowercase, uppercase, numbers, and special characters; then, the password is generated.
 
